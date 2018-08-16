@@ -1,0 +1,131 @@
+
+h1{
+  margin-bottom: 5px;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #fff;
+
+  font-size: 30px;
+  font-weight: 300;
+}
+
+h2{
+  margin-bottom: 5px;
+
+  color: #fff;
+
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.result {
+  margin-bottom: 5px;
+
+  color: #fff;
+
+  font-size: 20px;
+  font-weight: 300;
+}
+
+#normalText {
+  margin-bottom: 5px;
+
+  color: #fff;
+
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-item {
+  padding: 20px;
+  width: 35%;
+
+  /* uncomment to see the grid */
+  /* border: 2px solid white; */
+  max-width: 400px;
+  min-width: 290px;
+  border-color: #fff;
+  border-radius: 5px;
+}
+
+
+
+/* #palindrome {
+  display: flex ;
+  flex-direction: row ;
+  flex-wrap: wrap ;
+  justify-content: space-around ;
+  align-items: center ;
+  align-content: center ;
+} */
+
+
+
+
+
+/*button settings*/
+button {
+    display: inline-block;
+
+    margin: 5px;
+    height: 60px;
+    width: 20em;
+    /* padding: 15px 32px; */
+
+    text-align: center;
+    text-decoration: none;
+
+    color: white;
+    border: solid;
+    background-color: rgba(255,255,255,0.3);/*#54C0C0; /* Green */
+
+    font-size: 16px;
+}
+
+#submitButton {
+  display: inline-block;
+
+  width: 10em;
+  padding: 15px 32px;
+
+  text-align: center;
+  text-decoration: none;
+
+  color: white;
+  border: solid;
+  background-color: rgba(255,255,255,0.3);/*#54C0C0; /* Green */
+
+  font-size: 16px;
+}
+
+button:hover {
+  transition-delay: 0s;
+  transition-timing-function: line;
+	  transition-duration: 0.4s;
+	  transition-property: all;
+  transform: translate3d(6px, -6px, 0);
+
+  color: #000;
+  background-color: #51C6FE;
+  box-shadow: #199ED9 -1px 1px, #199ED9 -2px 2px, #199ED9 -3px 3px, #199ED9 -4px 4px, #199ED9 -5px 5px, #199ED9 -6px 6px;
+
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+body{
+  background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+  background: linear-gradient(to right, #0080C6, #54C0C0);
+
+  font-family: 'Roboto', sans-serif;
+}
