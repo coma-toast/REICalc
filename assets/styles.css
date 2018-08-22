@@ -38,35 +38,9 @@ h2{
   font-weight: 300;
 }
 
-.flex-container {
-  display: flex;
+.list-item {
+    list-style-type: none;
 }
-
-.flex-item {
-  padding: 20px;
-  width: 35%;
-
-  /* uncomment to see the grid */
-  /* border: 2px solid white; */
-  max-width: 400px;
-  min-width: 290px;
-  border-color: #fff;
-  border-radius: 5px;
-}
-
-
-
-/* #palindrome {
-  display: flex ;
-  flex-direction: row ;
-  flex-wrap: wrap ;
-  justify-content: space-around ;
-  align-items: center ;
-  align-content: center ;
-} */
-
-
-
 
 
 /*button settings*/
@@ -112,7 +86,7 @@ button:hover {
   transform: translate3d(6px, -6px, 0);
 
   color: #000;
-  background-color: #51C6FE;
+  background-color: #07131a;
   box-shadow: #199ED9 -1px 1px, #199ED9 -2px 2px, #199ED9 -3px 3px, #199ED9 -4px 4px, #199ED9 -5px 5px, #199ED9 -6px 6px;
 
   font-size: 16px;

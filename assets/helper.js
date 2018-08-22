@@ -1,6 +1,7 @@
 var zillow = {
     call: function(config) {
         if (typeof config === 'undefined') {
+            console.log("config is undefined");
             config = {};
         }
 
@@ -10,10 +11,11 @@ var zillow = {
         }
 
         if (typeof config.data === 'undefined') {
+            console.log("config.data is undefined");
             config.data = {};
         }
 
-        config.data.zws-id = zwsid;
+        //config.data.zws-id = zwsid;
 
         $.ajax({
             method:      config.method || 'GET',
@@ -23,6 +25,7 @@ var zillow = {
             success:     config.success,
             error:       config.error,
             complete:    config.complete,
+            message:     config.message,
         });
     },
 }
